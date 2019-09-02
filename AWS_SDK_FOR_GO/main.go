@@ -30,7 +30,7 @@ const (
 )
 
 func main() {
-	err := SendEmail("ex@ex.aws", "Hello AWS SES", "<p>535 Authentication Credentials Invalid</p>")
+	err := SendEmail("ex@ex.aws", "Hello AWS SES", "<p>You did a great job. Congratulation</p>")
 	if err != nil {
 		fmt.Println("AWS SES SendEmail ERROR: ", err)
 	}
